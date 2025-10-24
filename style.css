@@ -1,0 +1,63 @@
+/* General Page Style */
+body {
+font-family: "Times New Roman", Times, serif;
+background-color: #e0dcdc;
+color: #333;
+margin: 20px;
+}
+/* Headings */
+h1 {
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: #174617;
+text-align:center;
+text-decoration: underline;
+}
+h2 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #c9a120;
+}
+p {
+font-size: 20px;
+line-height: 1.6;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: #a359c5;
+    font-size: 28px;
+}
+ul,ol{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 40px;
+}
+a {
+color: #007b00;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+text-decoration: underline;
+color: #005500;
+}
+img {
+display: block;
+margin-top: 10px;
+border: 2px solid #521c1c;
+border-radius: 10px;
+}
+audio, video {
+display: block;
+margin-top: 10px;
+}
+button {
+background-color: #46c45b;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
+}
+button:hover {
+background-color: #2a552a;
+}
