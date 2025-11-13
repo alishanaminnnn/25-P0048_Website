@@ -1,63 +1,60 @@
-/* General Page Style */
+/* Center everything on the page */
 body {
-font-family: "Times New Roman", Times, serif;
-background-color: #e0dcdc;
-color: #333;
-margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
 }
-/* Headings */
-h1 {
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: #174617;
-text-align:center;
-text-decoration: underline;
+
+/* Container for logo and form */
+.container {
+  text-align: center;
+  transform: translateY(-50px); /* moves slightly upward */
 }
-h2 {
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: #c9a120;
-}
-p {
-font-size: 20px;
-line-height: 1.6;
-}
-h3{
-    font-family: 'Times New Roman', Times, serif;
-    color: #a359c5;
-    font-size: 28px;
-}
-ul,ol{
-    font-size: 20px;
-    line-height: 1.6;
-    margin-left: 40px;
-}
-a {
-color: #007b00;
-text-decoration: none;
-font-weight: bold;
-}
-a:hover {
-text-decoration: underline;
-color: #005500;
-}
+
+/* Logo styling */
 img {
-display: block;
-margin-top: 10px;
-border: 2px solid #521c1c;
-border-radius: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
-audio, video {
-display: block;
-margin-top: 10px;
+
+/* Heading style */
+h2 {
+  color: #333;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* Input field styling */
+input {
+  display: block;
+  width: 250px;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button styling */
 button {
-background-color: #46c45b;
-color: white;
-border: none;
-padding: 10px 20px;
-border-radius: 6px;
-cursor: pointer;
-font-size: 16px;
+  width: 270px;
+  padding: 10px;
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
 }
+
 button:hover {
-background-color: #2a552a;
+  background-color: #027fa8;
 }
