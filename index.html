@@ -1,50 +1,26 @@
-<html>
-    <head>
-    <title>This is my first website for my assignment</title>
-    <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Alishan Amin</h1>
-        <h2>BS-AI</h2>
-        <h2>1st Semester</h2>
-        <p>My name is Alishan Amin, and I am from Gilgit.
-           I am currently pursuing my bachelor’s degree at FAST University, Peshawar.
-           I am passionate about learning, technology, and developing new skills to grow in my field.
-        </p>
-        <h3>Hobbies</h3>
-        <ul>
-            <li>Sleeping</li>
-            <li>Reading</li>
-            <li>Climbing</li>
-        </ul>
-        <h3>Acheivements</h3>
-        <ol>
-            <li>Demonstrated strong teamwork, leadership, and problem-solving skills.</li>
-            <li>Completed several projects in C programming and web development.</li>
-            <li>Participated in several ICT workshops</li>
-        </ol>
-        <br><br>
-        <p>This will direct you to Youtube</p>
-        <a href="https://www.youtube.com/" target="_blank">Visit
-        Youtube</You-tube></a>
-        <p>Below is my image:</p>
-        <img src="picture.jpeg" alt="Passport size" width="150"
-        height="150">
-        <br><br>
-<p>An audio clip:</p>
-<audio controls>
-<source src="my_audio.mp3" type="audio/mp3">
-Your browser does not support the audio tag.
-</audio>
-<br><br>
-<p>A video clip:</p>
-<video width="320" height="240" controls>
-<source src="my_vedio.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-<br><br>
-<p>Below is a simple button that will be linked to my next assignment:</p>
-<button onclick="showMessage()">Click Here!</button>
-<script src="script.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.postimg.cc/sD0frrqF/logo.png" alt="logo" width="250">
+
+    <h2>FASTBook Login Portal</h2>
+
+    <form onsubmit="return login()">
+      <input type="text" id="studentID" placeholder="Student ID" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+
+    <p id="message"></p> <!-- For showing success or error message -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
